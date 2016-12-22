@@ -1,0 +1,54 @@
+
+body {
+   font-size: 14px;
+   font-family: sans;
+}
+.container {
+   width: 535px;
+   margin: 30px auto;
+   padding: 5px;
+   height: 110px;
+   position: relative;
+   border: 1px dashed red;
+}
+h2 {
+   font-size: 18px;
+   color: #3B3D3E;
+   margin: 0;
+   padding: 5px 5px 5px 10px;
+}
+h2.main {
+   padding: 10px 20px 15px 20px;
+}
+.styler {
+   width: 390px;
+}
+img {
+   margin-top: 5px;
+   vertical-align: middle;
+   margin-left: 25px;
+   margin-right: 15px;
+
+}
+.term {
+   color: red;
+   font-size: 19px;
+   font-weight: bold;
+   vertical-align: middle;
+}
+.discount {
+   padding: 3px;
+   box-sizing: border-box;
+   border: 1px dashed #FF0028;
+   border-radius: 6px;
+   right: 5px;
+   top: 10px;
+   position: absolute;
+   width: 140px;
+}
+.size {
+   display: block;
+   color: #FF0028;
+   font-weight: bold;
+   font-size: 42px;
+}
