@@ -1,0 +1,36 @@
+body {
+	background-image: url("_1017-1904.jpg");
+	background-size: cover;
+}
+.container {
+     	margin: 20px auto;
+	width: 500px;
+	text-align: center;
+}
+span {
+     	display: block;
+}
+
+.header {
+    	background-image: url("65648002.jpg");
+	float: left;
+	width: 100%;
+	padding: 5px 0;
+}
+.sidebar {
+	background-image: url("fonstola.ru-136085.jpg");
+	float: left;
+	width: 34%;
+}
+.content {
+	background-image: url("Blue-rule-ground.png");
+	float: right;
+	width: 66%;
+}
+
+.footer {
+    	background-image: url("65648002.jpg");
+	clear: both;
+	width: 100%;
+	padding: 5px 0;
+}
