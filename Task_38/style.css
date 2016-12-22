@@ -1,0 +1,22 @@
+
+body {
+    font-family: "Times", serif;
+    font-size: 46px;
+    background:url("65648002.jpg");
+}
+div {
+    width: 530px;
+    margin: 60px auto;
+}
+span {
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    line-height: 80px;
+}
+img {
+    margin-bottom: 10px;
+    vertical-align: bottom;
+}
+.first {
+    margin-right: 26px;
+}
