@@ -1,0 +1,90 @@
+body {
+	font-family: Nimbus Sans L, Arial, sans-serif;;
+	font-size: 13px;
+}
+.container {
+    	width: 800px;
+	box-sizing: border-box;
+	margin: 30px auto;
+	border-left: 1px solid #ebd6a0;
+	border-right: 1px solid #ebd6a0;
+	padding: 5px 15px 10px 15px;
+}
+.table {
+	display: table;
+}
+.wrap {
+    	border-top: 1px solid #ebd6a0;
+}
+h3 {
+	font-size: 13px;
+	background-color: #FCF8E4;
+	color: #494949;
+	width: 758px;
+	display: block;
+	padding: 2px 5px 5px;
+	margin-top: 6px;
+	margin-bottom: 0;
+	border-bottom: 1px solid #ebd6a0;
+}
+h6 {
+    	display: inline-block;
+	font-size: 13px;
+	margin: 0 0 5px 0;
+}
+.row {
+    	display: table-row;
+}
+.header {
+    	color: #ffffff;
+	background-color: #ff9823;
+	font-weight: bold;
+	vertical-align: bottom;
+	border-top: 1px solid #ebd6a0;
+	border-bottom: 1px solid #ebd6a0;
+}
+.header :first-child{
+    	width: 130px;
+}
+.header :last-child{
+    	width: 120px;
+}
+.header :nth-child(2){
+    	width: 480px;
+}
+.header .cell {
+    	padding: 5px 10px 5px 5px;
+}
+.cell {
+    	display: table-cell;
+	border-bottom: 1px solid #ebd6a0;
+	padding: 5px 10px 0px 5px;
+}
+.btn {
+    	margin-left: 10px;
+	cursor: pointer;
+}
+.icon {
+    	background: url("http://www.intuit.ru/sites/all/themes/intuit/./images/video.png") no-repeat 0% 100%;
+	padding-left: 20px;
+	font-stretch: expanded;
+}
+.time {
+    	display: block;
+	font-weight: bold;
+	color: #494949;
+}
+.description {
+    	font-stretch: condensed;
+	font-size: 14px;
+	margin-top: 0;
+	display: none;
+}
+p {
+    	margin: 0;
+}
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: #0071A6;
+}
