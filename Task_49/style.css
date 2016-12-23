@@ -1,0 +1,59 @@
+body {
+	font-size: 13px;
+	font-family: Nimbus Sans L, Arial, sans-serif;
+}
+.container {
+    	width: 745px;
+	border: 7px solid #F2F2F2;
+	box-sizing: border-box;
+	padding: 0 10px 15px 0;
+}
+h1 {
+    	width: 730px;
+	background-color: #4072B7;
+	color: #ffffff;
+	text-align: center;
+	font-size: 28px;
+	margin: 0 0 15px 0;
+	font-stretch: ultra-condensed;
+}
+p {
+	padding-bottom: 3px;
+	margin: 0;
+    	text-indent: 20px;
+	line-height: 1.5;
+	
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+li {
+    	padding-left: 10px;
+}
+a {
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 16px;
+	font-stretch: ultra-condensed;
+}
+.google {
+    	background: url("http://www.google.com/intl/ru/homepage/images/google_favicon_64.png") no-repeat 10px 0;
+	background-size: 20px;
+}
+.translate {
+   	background: url("http://www.translate.ru/images/common/logo.gif") no-repeat 10px 0;
+	background-size: 20px;
+}
+.yandex {
+   	background: url("https://lh3.ggpht.com/Be6CInmxjmkS7OU-DK5L_iw8qsvQ-mJy7owWVUEH1hsrT-OucqDV2WBo_IJ1Q3vlTBF4=w300") no-repeat 10px 0;
+	background-size: 20px;
+}
+.meta {
+   	background: url("http://www.translate.meta.ua/images/logo.jpg") no-repeat 10px 0;
+	background-size: 20px;
+}
+
