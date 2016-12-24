@@ -1,0 +1,54 @@
+body {
+	font-size: 16px;
+	font-family: Arial,sans-serif;
+}
+.container {
+    	width: 635px;
+	margin: 20px auto;
+	padding: 10px 5px;
+}
+h5 {
+    	font-size: 20px;
+	margin: 0 0 9px 28px;
+}
+ul {
+	margin: 0;
+	background-color: white;
+	list-style: none;
+}
+
+li {
+	width: 175px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+a {
+	display: inline-block;
+	color: #848484;
+	text-decoration: none;
+	line-height: 1.13;
+}
+
+.link {
+    	float: left;
+	border: 2px solid #ECEBF3;
+	border-radius: 7px;
+	margin-right: 16px;
+}
+.link a {
+	width: 122px;
+	height: 56px;
+    	padding: 27px 10px 10px 75px;
+	font-size: 20px;
+	line-height: 1.1;
+	background: url("home.svg") no-repeat 13% 60%;
+	background-size: 23%;
+}
+nav a::before {
+    	content:"•";
+	color: #7e44aa;
+	margin-right: 10px;
+	font-size: 20px;
+	
+}
