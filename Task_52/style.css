@@ -1,0 +1,28 @@
+body {
+	font-family: Droid Sans, Tahoma, sans-serif;
+}
+.container {
+	margin: 20px auto;
+	width: 425px;
+	position: relative;
+    	background-color: #344963;
+	padding: 4px 17px;
+	border: 15px solid #F2F2F2;
+}
+.container::after {
+    	content:'';
+	display: block;
+	width: 120px;
+	height: 80px;
+	background-image:linear-gradient(to right, #F2F2F2 11%, #CBD1D7 11%, #CBD1D7 55%, #F2F2F2 55%, #F2F2F2 67%, #CBD1D7 67%, #CBD1D7 88%, #F2F2F2 88%); 
+	position: absolute;
+	top: -15px;
+	right: 23px;
+	transform: skewX(-11deg);
+}
+.text {
+    	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 35px;
+}
