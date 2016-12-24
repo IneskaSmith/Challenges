@@ -1,0 +1,19 @@
+
+body {
+   font-family: "Arial", sans-serif;
+   font-size: 15px;
+}
+.paginator {
+   margin: 60px auto;
+   text-align: center;
+}
+a {
+   display: inline-block;
+   padding: 6px 11px;
+   background-color: #3F3F3F;
+   color: #ffffff;
+   text-decoration: none;
+}
+a.active, a:hover {
+   background-color: #FF6600;
+}
