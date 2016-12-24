@@ -1,0 +1,64 @@
+body {
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	width: 835px;
+}
+.table {
+    	display: table;
+}
+h2 {
+    	text-align: center;
+	width: 100%;
+	font-size: 14px;
+	background-color: #c0d0e0;
+	padding: 10px 0;
+	margin: 0;
+}
+.row {
+    	display: table-row;
+}
+.cell {
+    	display: table-cell;
+	border-bottom: 1px solid #e0e0e0;
+	padding: 15px 18px 10px 0;
+}
+.cell:first-child {
+   	width: 520px;
+}
+.cell:last-child {
+    	width: 155px;
+}
+.part {
+	font-weight: bold;
+    	line-height: 1.2;
+}
+.description {
+	display: block;
+	margin: 20px 0;
+	font-size: 13px;
+}
+a {
+	display: block;
+	color: #1752b6;
+}
+span {
+    	font-size: 10px;
+	vertical-align: top;
+}
+.arrow {
+    	display: block;
+	width: 16px;
+	height: 16px;
+	background: url("http://s.livelib.ru/img/to.gif") no-repeat 50% 50%;
+	text-indent: -9999px;
+}
+.reader {
+    	display: block;
+	padding-left: 20px;
+	background: url("http://iyiydibu.com/uploads/user/df_avt__54a05119e53d3o_19a93ppd01nsm1hb716qt9t81ifq7.png") no-repeat 0 50%;
+	background-size: 16px;
+}
+.date {
+    	font-size: 14px;
+	line-height: 1.6;
+}
