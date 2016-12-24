@@ -1,0 +1,70 @@
+body {
+	font-family: serif;
+	font-size: 16px;
+}
+.container {
+	width: 240px;
+	margin: 20px auto;
+}
+h4 {
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0;
+	padding: 7px 5px 5px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 5px 5px 0 0;
+	background-color: #007854;
+}
+.heading {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 5px 10px 10px;
+	text-align: center;
+	background-color: #000;
+}
+.date {
+	font-family: sans;
+	display: inline-block;
+	width: 85%;
+	color: #fff;
+}
+button {
+	width: 0;
+	height: 0;
+	padding: 0;
+	cursor: pointer;
+	vertical-align: bottom;
+	border: 10px solid transparent;
+	outline: none;
+	background-color: transparent;
+}
+.prev {
+	border-right-color: #04b565;
+	border-left: none;
+}
+.next {
+	border-right: none;
+	border-left-color: #04b565;
+}
+.calendar {
+	padding: 12px 8px 15px 13px;
+	background-color: #e6e6e6;
+}
+.calendar td {
+	font-size: 15px;
+	padding: 8px 2px 0;
+	text-align: center;
+}
+.calendar .current {
+	color: #7a7a7a;
+}
+.calendar td:hover {
+	background-color: #007854;
+}
+.calendar a {
+	text-decoration: none;
+	color: inherit;
+}
