@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Задача 73</title>
+    <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+    <div class="container">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="395" height="85">
+            <defs>
+                <filter id="shadow">
+                    <feGaussianBlur in="SourceAlpha" stdDeviation="2.2" />
+                    <feOffset dx="2" dy="2" result="offsetblur" />
+                    <feFlood flood-color="rgba(0,0,0,0.5)" />
+                    <feComposite in2="offsetblur" operator="in" />
+                    <feMerge>
+                        <feMergeNode />
+                        <feMergeNode in="SourceGraphic" /> </feMerge>
+                </filter>
+            </defs>
+            <g id="step">
+                <rect x="0" y="0" width="388" height="80" rx="12" ry="12" fill="#FF002E" stroke="none" filter="url(#shadow)" />
+                <rect x="5" y="5" fill="#FF002E" width="378" height="70" rx="6" ry="6" stroke="#fff" stroke-width="2" stroke-dasharray="6" />
+                <text x="49%" y="55%" text-anchor="middle" fill="#fff"> www.itmathrepetitor.ru</text>
+            </g>
+        </svg>
+    </div>
+</body>
+
+</html>

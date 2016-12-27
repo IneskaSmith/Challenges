@@ -1,0 +1,26 @@
+body {
+    font-size: 17px;
+    font-family: serif;
+}
+
+text {
+    text-shadow: 0 -1px 1px #760E13, -1px 0 1px #FF9559;
+}
+
+text::-moz-selection {
+    color: #000;
+    background-color: #FF9559;
+    text-shadow: -1px -1px 1px #FF002E;
+}
+
+text::-webkit-selection {
+    color: #000;
+    background-color: #FF9559;
+    text-shadow: -1px -1px 1px #FF002E;
+}
+
+text::selection {
+    color: #000;
+    background-color: #FF9559;
+    text-shadow: -1px -1px 1px #FF002E;
+}
