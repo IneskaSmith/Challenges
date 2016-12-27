@@ -1,0 +1,58 @@
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #404040;
+}
+
+.container {
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid;
+    border-right: 20px solid #252525;
+    background-color: #f8f8f8;
+}
+
+.tags {
+    display: flex;
+    margin-bottom: 13px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tags::after {
+    content: '';
+    flex: auto;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 50px;
+    margin: 0 auto 23px;
+    padding-left: 80px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #484848;
+    background-image: url('http://www.coolwebmasters.com/templates/coolwebmasters-2014/images/dlet-sbicon5.gif'), url('http://www.coolwebmasters.com/templates/coolwebmasters-2014/images/dlet-sbspan.gif');
+    background-repeat: no-repeat;
+    background-position: 0 50%, right center;
+}
+
+a {
+    font-size: 13px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.tag {
+    margin-right: 5px;
+    margin-bottom: 7px;
+    padding: 0 5px;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
