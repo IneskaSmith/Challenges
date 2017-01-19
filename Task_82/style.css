@@ -1,0 +1,121 @@
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.destination-widget {
+    width: 540px; /* optional */
+}
+
+.destination-country {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    background: url('http://s-ec.bstatic.com/images/city/600x200/118/118115.jpg') no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.destination-country-wrap {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.destination-country__link {
+    font-size: 48px;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+}
+
+.destination-country__link::after {
+    position: absolute;
+    top: 50%;
+    width: 24px;
+    height: 24px;
+    margin-top: -10px;
+    margin-left: 10px;
+    content: '';
+    background: url('http://t-ec.bstatic.com/static/img/flags/24/fr/c3dafe717a0b4b97e6ddd0d791e8a018d8f96310.png') no-repeat 50% 50%;
+}
+
+.destination-country__details {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+}
+
+.reservation {
+    padding: 10px 0;
+    border-radius: 8px;
+    background-color: #e6edf6;
+}
+
+.reservation__title {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0 0 5px 10px;
+    color: #003580;
+}
+
+.reservation-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.reservation-list__item {
+    position: relative;
+    display: flex;
+    margin: 4px 10px;
+    padding: 15px;
+    border-left: 2px solid #003580;
+    background-color: #fff;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.reservation-list__item::before {
+    position: absolute;
+    top: 50%;
+    left: -3px;
+    margin-top: -6px;
+    content: '';
+    transform: scaleX(.5);
+    border: 6px solid transparent;
+    border-right-color: none;
+    border-left-color: #003580;
+}
+
+.reservation-list__img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.reservation-list__img img {
+    width: 40px;
+    height: 40px;
+}
+
+.reservation-list__info {
+    line-height: 1.6;
+    margin: 0;
+    color: #003580;
+}
+
+.reservation-list__guest {
+    display: block;
+    color: #666;
+}
+
+.reservation-list__place {
+    font-weight: bold;
+    color: #0896ff;
+}
